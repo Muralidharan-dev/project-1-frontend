@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 import Cart from "./pages/Cart/Cart";
 import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
 import Footer from "./components/footer/Footer";
-import Login from "./components/login/login";
+import Login from "./components/login/Login";
 import Signup from "./components/signup/signup";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
