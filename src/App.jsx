@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Cart from "./pages/Cart/Cart";
 import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
-import Footer from "./components/footer/footer";
+import Footer from "./components/footer/Footer";
 import Login from "./components/login/login";
 import Signup from "./components/signup/signup";
 import { ToastContainer } from 'react-toastify';
