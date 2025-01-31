@@ -1,0 +1,39 @@
+.header{
+    position:relative;
+    background-position:center;
+    background-attachment:fixed;
+    margin: 2px;
+    height: 300px;
+    width: 100%;
+}
+
+.header-contents {
+
+    bottom: 40px;
+    display: flex; 
+  color: black;
+  flex-direction:column;
+  position: absolute;
+  }
+
+  .view-menu {
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid black; /* Ensures a proper border width */
+    padding: 5px; /* Adjusted padding for consistent styling */
+    background-color: white;
+    display: flex; /* Aligns content properly if there's text inside */
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer; /* Adds pointer cursor for interactive elements */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover transitions */
+  }
+  
+
+  .view-menu:hover {
+    background-color: lightgray; 
+    transform: scale(1.05); 
+  }
+  

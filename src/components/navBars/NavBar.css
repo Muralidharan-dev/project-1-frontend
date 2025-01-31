@@ -1,0 +1,38 @@
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:orange;
+    border-radius:3px;
+    height:20px;
+    /* margin:px; */
+}
+.navbar-menu{
+    display: flex;
+    list-style:none;
+    justify-content:space-around;
+    gap:20px;
+    font-size:18px;
+    color: aliceblue;
+}
+.navbar-right{
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+}
+.txt {
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid rgb(200, 200, 200); 
+    color: rgb(34, 34, 34); 
+    padding: 10px 20px; 
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.txt:hover {
+    transform: scale(1.05); 
+    background-color: rgb(230, 230, 230); 
+    border-color: rgb(170, 170, 170); 
+}

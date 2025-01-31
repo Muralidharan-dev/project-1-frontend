@@ -1,0 +1,10 @@
+body {
+    color: white;
+    background-size: 100% 800px;
+    background-repeat: no-repeat; 
+    background-position: top; 
+  }
+  
+  .back{
+     background-image: url('./header.jpg');
+  }

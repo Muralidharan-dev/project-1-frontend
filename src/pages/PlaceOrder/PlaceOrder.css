@@ -1,0 +1,90 @@
+
+
+/* Heading */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+}
+
+/* Input Fields */
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: #888;
+}
+
+/* Cart Totals Section */
+.cart-total {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+.cart-total p {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.cart-total  {
+    position: relative;
+    top:-300px;
+    left:60%;
+    background-color: #e6ad33;
+    color: #191311;
+}
+button {
+    background-color: #4CAF50;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline element */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button:focus {
+    outline: none; /* Removes the focus outline */
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.app{
+    width: 80%;
+    margin:auto;
+    font-family: Outfit;
+}
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes shake {
+    0% { transform: translateY(-100vh); }
+    70% { transform: translateY(0); }   
+    80% { transform: translateX(-5px); }
+    90% { transform: translateX(5px); }
+    100% { transform: translateX(0); } 
+  }
+  
+.shake-animation {
+    animation: shake 0.5s ease-in-out;
+  }

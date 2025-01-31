@@ -1,0 +1,44 @@
+.footer{
+    background-color:rgb(68, 68, 68);
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    /* position: relative; */
+    align-items: center;
+}
+.footer-left{
+    left:100px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+}
+ 
+    /* display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    gap:10px;
+} */
+.footer-icons{
+    display: flex;
+    justify-content: start;
+
+    gap: 10px;
+}
+.footer-center{
+    display: flex;
+    flex-direction: column;
+
+    right:500px;
+    gap:10px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+}
+.logo-name{
+color: rgb(190, 125, 13);
+}
